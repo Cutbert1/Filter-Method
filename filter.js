@@ -92,7 +92,7 @@ console.log(names);
 //3. Use a single line arrow function within the filter method (should not use a return statement)
 //4. Log out the variable topMaths
 
-let students = [
+let studentss = [
   {
       name: 'John',
       subjects: ['maths', 'english', 'cad'],
@@ -120,5 +120,5 @@ let students = [
 ];
 
 //Write code here
-const topMaths = students.filter(itm => itm.results.maths >= 90);
+const topMaths = studentss.filter(itm => itm.results.maths >= 90);
 console.log(topMaths);
